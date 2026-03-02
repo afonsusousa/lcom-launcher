@@ -12,7 +12,8 @@ The installer adds these aliases:
 ## Install
 
 ```bash
-source ./install-lcom-aliases.sh
+git clone --depth 1 https://github.com/afonsusousa/lcom-launcher.git && \
+bash ./lcom-launcher/install.sh
 ```
 
 This installs `lcom.sh` to `~/.local/bin/lcom.sh` and writes aliases to both `~/.bashrc` and `~/.zshrc`.
