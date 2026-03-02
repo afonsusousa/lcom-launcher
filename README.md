@@ -1,5 +1,7 @@
 # LCOM aliases
 
+Small launcher to start, stop, open, and SSH into your LCOM VirtualBox VM with short shell commands.
+
 The installer adds these aliases:
 
 - `alias lcomsh='LCOM_VM_NAME=<selected-vm> ~/.local/bin/lcom.sh --ssh'`
